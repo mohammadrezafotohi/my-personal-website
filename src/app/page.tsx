@@ -7,12 +7,6 @@ import Image from "next/image";
 import my_image from "@/assets/main_page/IMG_20250506_194223_170.jpg";
 
 export default function Home() {
-  const my_image_style = {
-    borderRadius: '10%',
-    border: '3px',
-    width: "350px",
-    height: "500px",
-  }
   return (
     <div>
       <div className="flex justify-end items-end mt-4 mr-3">
@@ -35,17 +29,14 @@ export default function Home() {
           </Link>
         </Button>
       </div>
-      <div className="flex mt-40">
-        <p className="text-white ml-10 mr-230">
+      <div className="flex mt-40 justify-center items-center">
+        <p className="flex-col text-white w-100 mr-75">
           Hello World. I am Mohammadreza Fotohi.
-          <br/>
           I am form Iran. I am a software engineer.
-          <br/>
           Welcome to my Personal Website.
-          <br/>
           If you want you can start me in Github , Email me Or buy me a Caffe. 
         </p>
-        <Image src={my_image} alt="Author Image"  style={my_image_style}/>
+         <Image src={my_image} alt="Authors' Image" className="flex-col rounded-sm w-100 h-130 ml-75" />
       </div>
     </div>
      );
