@@ -19,7 +19,7 @@ export default function Home() {
         <Button className="cursor-pointer bg-gray-500 hover:bg-green-500 mr-4">
           <MdAlternateEmail />
           <Link href="mailto:mohammadrezafotohijob@gmail.com">
-            Email Me
+            Please email me
           </Link>
         </Button>
         <Button className="bg-amber-600 text-black hover:bg-yellow-300 hover:cursor-pointer">
@@ -32,9 +32,9 @@ export default function Home() {
       <div className="flex mt-40 justify-center items-center">
         <p className="flex-col text-white w-100 mr-75">
           Hello World. I am Mohammadreza Fotohi.
-          I am form Iran. I am a software engineer.
+          I am from Iran. I am a Programmer.
           Welcome to my Personal Website.
-          If you want you can start me in Github , Email me Or buy me a Caffe. 
+          If you want, you can start me on GitHub, Email me or buy me a Caffe. 
         </p>
          <Image src={my_image} alt="Authors' Image" className="flex-col rounded-sm w-100 h-130 ml-75 hover:animate-pulse" />
       </div>
