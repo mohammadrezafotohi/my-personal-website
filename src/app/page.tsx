@@ -36,7 +36,7 @@ export default function Home() {
           Welcome to my Personal Website.
           If you want you can start me in Github , Email me Or buy me a Caffe. 
         </p>
-         <Image src={my_image} alt="Authors' Image" className="flex-col rounded-sm w-100 h-130 ml-75" />
+         <Image src={my_image} alt="Authors' Image" className="flex-col rounded-sm w-100 h-130 ml-75 hover:animate-pulse" />
       </div>
     </div>
      );
